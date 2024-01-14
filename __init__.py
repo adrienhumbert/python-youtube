@@ -12,7 +12,7 @@ from ydl import get_media, verify, fetch_name
 from zipper import zipping
 
 app = Flask(__name__)
-app.secret_key = "supposed to be a secret"
+app.secret_key = "darahemitotanimecimavoyavafenevudekozite"
 
 
 @app.route("/return-file/")
@@ -44,7 +44,7 @@ def home_page():
 	Displaying homepage
 	"""
 
-    title = "YDL | YouTube Downloader"
+    title = "YouTube MP4 Downloader"
 
     if request.method == "POST":
 
